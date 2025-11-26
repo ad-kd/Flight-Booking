@@ -9,11 +9,11 @@ const sidebar = () => {
 
           <nav className='sidebar-links'>
             <ul>
-              <li>Home</li>
-              <li>Ticket</li>
-              <li>Shedule</li>
-              <li>History</li>
-              <li>Support</li>
+              <li className='active'><a href="#">Home</a></li>
+              <li><a href="#">Ticket</a></li>
+              <li><a href="#">Shedule</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Support </a></li>
             </ul>
           </nav>
         </div>

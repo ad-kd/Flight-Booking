@@ -11,14 +11,34 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --sidebar-active: #4690f6;
 }
 
 .sidebar{
   width: 200px;
   height: 100vh;
- background-color: #0073ff;
 }
 
 .sidebar-links ul{
   list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.sidebar-links ul li{
+  margin: 15px 0px;
+}
+
+.sidebar-links ul li.active{
+  background-color: var(--sidebar-active);
+  border-radius: 5px;
+  color: #fff;
+}
+.sidebar-links ul li.active a{
+  color: #fff;
+}
+
+.sidebar-links ul li a{
+  color: rgb(0, 0, 0);
+ text-decoration: none;
 }
