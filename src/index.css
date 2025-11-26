@@ -12,3 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.sidebar{
+  width: 200px;
+  height: 100vh;
+ background-color: #0073ff;
+}
+
+.sidebar-links ul{
+  list-style: none;
+}
