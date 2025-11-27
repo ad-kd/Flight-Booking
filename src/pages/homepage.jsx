@@ -1,19 +1,24 @@
 import React from 'react'
 import SideBar from '../components/sidebar.jsx'
+import Main from '../components/main.jsx'
 
 const homepage = () => {
   return (
     <div>
-      {/* Sidebar */}
 
-      <SideBar />
+      <div className='d-flex gap-3'>
+        {/* Sidebar */}
+        <SideBar />
 
-      {/* main */}
+        {/* main */}
+        <div className='p-3'>
+          <Main />
+        </div>
 
-
+      </div>
       {/* filter  */}
 
-      
+
     </div>
   )
 }
