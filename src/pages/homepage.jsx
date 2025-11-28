@@ -11,7 +11,7 @@ const homepage = () => {
         <SideBar />
 
         {/* main */}
-        <div className='p-3'>
+        <div className='main-container'>
           <Main />
         </div>
 
