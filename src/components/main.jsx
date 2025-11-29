@@ -1,5 +1,6 @@
 import React from 'react'
 import FlightSearchCard from './flightsearchcard.jsx'
+import FlightDetailSlider from './flightdetailslider.jsx'
 
 const main = () => {
   return (
@@ -7,7 +8,7 @@ const main = () => {
       <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12'>
         <FlightSearchCard />
 
-        <div>
+        <div className='my-3'>
           <div className='d-flex align-items-center justify-content-between gap-3'>
             <div>
               <p className='mb-1'>From</p>
@@ -22,7 +23,7 @@ const main = () => {
             </div>
           </div>
         </div>
-
+        <FlightDetailSlider />
       </div>
 
     </div>
